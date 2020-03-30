@@ -8,23 +8,27 @@ body{
 }
 .left {
   float: left;
-  padding-left: 22%;
+  padding-left: 25%;
   width: 20vw;
+  text-align: center;
 }
 .middle_left{
   float: left;
-  padding-left: 22%;
+  padding-left: 25%;
   width: 20vw;
+  text-align: center;
 }
 .middle_right{
   float: left;
-  padding-left: 22%;
+  padding-left: 25%;
   width: 20vw;
+  text-align: center;
 }
 .right{
   float: left;
-  padding-left: 22%;
-  width: 20vw;
+  padding-left: 25%;
+  width: 25vw;
+  text-align: center;
 }
 ul {
   list-style-type: none;
