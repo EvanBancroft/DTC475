@@ -1,0 +1,84 @@
+body{
+  overflow-x: hidden;
+  margin: 0;
+}
+.name {
+  text-align: center;
+  float: 0; 
+}
+.left {
+  float: left;
+  padding-left: 22%;
+  width: 20vw;
+}
+.middle_left{
+  float: left;
+  padding-left: 22%;
+  width: 20vw;
+}
+.middle_right{
+  float: left;
+  padding-left: 22%;
+  width: 20vw;
+}
+.right{
+  float: left;
+  padding-left: 22%;
+  width: 20vw;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.little_name{
+  text-align: center;
+}
+.head_image{
+  outline: 2px dashed black;
+  width: 33vw;
+  height: 20vw;
+  margin: auto;
+}
+.paragraph{
+  outline: 2px dashed black;
+  width: 33vw;
+  height: 20vw;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+
+
+
+
+
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.far_right{
+  padding-left: 66%;
+  float: right;
+  width: 20vw;
+}
