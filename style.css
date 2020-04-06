@@ -10,26 +10,26 @@ body{
 }
 .left {
   float: left;
-  margin-left: 15%;
-  width: 15%;
+  margin-left: 28%;
+  width: 10%;
   text-align: center;
 }
 .middle_left{
   float: left;
 
-  width: 15%;
+  width: 10%;
   text-align: center;
 }
 .middle_right{
   float: left;
 
-  width: 15%;
+  width: 10%;
   text-align: center;
 }
 .right{
   float: left;
 
-  width: 15%;
+  width: 10%;
   text-align: center;
 }
 ul {
@@ -39,9 +39,8 @@ ul {
   overflow: hidden;
   background-color: #E0D2C1;
   font-weight: 900;
-  height: 6vh;
-  font-size: 2em;
-  line-height: 1.8em;
+  height: 5.8vh;
+  font-size: 1.25em;
 }
 
 li a {
@@ -50,6 +49,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   color: black;
+  padding-top: 3vh;
 }
 li a:hover, .activ {
   background-color: #60A699;
@@ -76,7 +76,9 @@ img {
   width: 45vw;
   font-size: 1.7em;
   margin: auto;
-  padding-top: 5vh;
+  background-color: #E0D2C1;
+  padding: 2.5%;
+  margin-top: 5%;
 }
 .paragraph{
   transition: max-height 0.3s ease-out;
@@ -154,4 +156,7 @@ img {
 }
 strong {
   color: #60A699;
+}
+h2 {
+  color: #D96B43;
 }
