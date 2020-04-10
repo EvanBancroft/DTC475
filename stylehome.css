@@ -60,6 +60,8 @@ li a {
 li a:hover, .activ {
   background-color: #60A699;
 }
+
+
  #cause, #experience, #resource{
 
   padding-bottom: 50px;
@@ -70,6 +72,9 @@ a{
 
 }
 
+a:visited{
+  color: black;
+}
 
 #news{
  
