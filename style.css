@@ -72,6 +72,10 @@ img {
   height: 100%;
   width: 100%;
 }
+.introduction_box{
+  width: 100vw;
+  background-color: #E0D2C1;
+}
 .introduction{
   width: 45vw;
   font-size: 1.7em;
