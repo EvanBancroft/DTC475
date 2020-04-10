@@ -125,13 +125,13 @@ li a:hover, .activ {
   line-height: 25px;
 }
 .left_bot {
-  margin-left: 30%;
+  margin-left: 25%;
   float: left;
   width: 15vw;
   font-size: 0.5em;
 }
 .far_right{
-  margin-right: 30%;
+  margin-right: 25%;
   float: right;
   width: 15vw;
   font-size: 0.5em;
