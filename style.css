@@ -101,12 +101,21 @@ li a:hover, .activ {
   padding: 2.5%;
   margin-top: 5%;
 }
+.introductionz{
+  width: 65vw;
+  font-size: 1.4em;
+  margin: auto;
+  background-color: #E0D2C1;
+  padding-top: 2.5%;
+  margin-top: 5%;
+}
 .introductions{
-  width: 45vw;
-  font-size: 1.7em;
+  width: 65vw;
+  font-size: 1.4em;
   margin: auto;
   background-color: #E0D2C1;
   padding-bottom: 2.5%;
+  padding-top: 1%;
 
 }
 .paragraph{
@@ -264,7 +273,7 @@ h2 {
   text-align: left;
   height: 10vh;
   margin: auto;
-  font-size: 1.5em;
+  font-size: 1.4em;
   padding-left: 2vw;
   padding-right: 6vw;
   margin-top: 8vh;
