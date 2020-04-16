@@ -101,6 +101,14 @@ li a:hover, .activ {
   padding: 2.5%;
   margin-top: 5%;
 }
+.introductions{
+  width: 45vw;
+  font-size: 1.7em;
+  margin: auto;
+  background-color: #E0D2C1;
+  padding-bottom: 2.5%;
+
+}
 .paragraph{
   transition: max-height 0.3s ease-out;
   width: 45vw;
@@ -162,7 +170,7 @@ li a:hover, .activ {
   float: right;
 }
 .footer{
-  margin-top: 50vh;
+
   left: 0;
   bottom: 0;
   width: 100vw;
@@ -215,13 +223,20 @@ strong {
 h2 {
   color: #D96B43;
 }
+.borderboxs {
+  width: 100vw;
+  margin: auto;
+  background-color: #6C736C;
+  margin-top: 7vh;
+  height: 45vh;
+  color: white;
+}
 .borderbox {
   width: 100vw;
   margin: auto;
   background-color: #6C736C;
-  margin-top: 15vh;
   height: 45vh;
-
+  color: white;
 }
 .profile {
   width: 100%;
@@ -251,8 +266,10 @@ h2 {
   margin: auto;
   font-size: 1.5em;
   padding-left: 2vw;
-  color: white;
   padding-right: 6vw;
   margin-top: 8vh;
-
+}
+.alt_border {
+  background-color: #E0D2C1;
+  color: black; 
 }
