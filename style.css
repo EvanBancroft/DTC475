@@ -83,7 +83,8 @@ li a:hover, .activ {
 .littler_name {
   text-align: center;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 5em;
+  padding-top: 10vh;
 
 }
 .head_image{
@@ -128,6 +129,7 @@ li a:hover, .activ {
   font-size: 1.4em;
   margin: auto;
   background-color: #E0D2C1;
+  margin-bottom: 7vh;
   padding-bottom: 2.5%;
   padding-top: 1%;
 
@@ -264,7 +266,7 @@ h2 {
   width: 100vw;
   margin: auto;
   background-color: #6C736C;
-  margin-top: 7vh;
+ 
   height: 45vh;
   color: white;
 }
