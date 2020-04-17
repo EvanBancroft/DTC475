@@ -74,7 +74,14 @@ li a:hover, .activ {
   text-align: center;
   font-weight: 900;
   font-size: 5em;
-  padding-top: 10vh
+  padding-top: 10vh;
+  margin-bottom: 1vh;
+}
+.littler_name {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3em;
+  margin-top: 1vh;
 }
 .head_image{
   width: 33vw;
@@ -179,7 +186,6 @@ li a:hover, .activ {
   float: right;
 }
 .footer{
-
   left: 0;
   bottom: 0;
   width: 100vw;
@@ -187,17 +193,32 @@ li a:hover, .activ {
   color: white;
   text-align: center;
   text-decoration: none;
-  height: 5.8vh;
-  line-height: 25px;
+  height: 5vh;
+  margin-top: 15vh;
+  line-height: 0.1vh;
+}
+.footerHome {
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  height: 5vh;
+  margin-top: 11.7vh;
+  line-height: 0.1vh;
+  position: fixed;
 }
 .left_bot {
   float: left;
   width: 15vw;
+  padding-bottom: 2vh;
 }
 .far_right{
   float: left;
   width: 15vw;
-
+  padding-bottom: 2vh;
 }
 .collapse2 {
   background-color: #D96B43;
@@ -218,7 +239,7 @@ li a:hover, .activ {
   padding: 0;
   overflow: hidden;
   font-weight: 900;
-  height: 5.8vh;
+  height: 5vh;
   font-size: 1.25em;
   width: 100vw;
   z-index: 1;
@@ -281,4 +302,9 @@ h2 {
 .alt_border {
   background-color: #E0D2C1;
   color: black; 
+}
+.headerImage {
+  width: 100vw;
+  object-fit: cover;
+  padding-bottom: 10vh;
 }
