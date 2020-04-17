@@ -91,7 +91,7 @@ li a:hover, .activ {
 .top_img {
   background-repeat: no-repeat;
   position: relative;
-  background-size: cover;
+  object-fit: cover;
   background-position: center;
   height: 100%;
   width: 100%;
