@@ -250,7 +250,7 @@ height: 25vw;
   color: white;
   text-align: center;
   text-decoration: none;
-  height: 5.8vh;
+  height: 7vh;
   margin-top: 15vh;
   line-height: 0.1vh;
 }
@@ -262,7 +262,7 @@ height: 25vw;
   color: white;
   text-align: center;
   text-decoration: none;
-  height: 5vh;
+  height: 7vh;
   margin-top: 11.7vh;
   line-height: 0.1vh;
   position: fixed;
@@ -270,14 +270,17 @@ height: 25vw;
 .left_bot {
   float: left;
   width: 15vw;
-  padding-bottom: 2vh;
-  height: 5.8vh;
+  line-height: 2.5vh;
+  height: 7vh;
+
 }
 .far_right{
   float: left;
   width: 15vw;
-  padding-bottom: 2vh;
-  height: 5.8vh;
+  line-height: 2.5vh;
+  height: 7vh;
+
+
 }
 .collapse2 {
   background-color: #D96B43;
@@ -298,7 +301,7 @@ height: 25vw;
   padding: 0;
   overflow: hidden;
   font-weight: 900;
-  height: 5.8vh;
+  height: 7vh;
   font-size: 1.25em;
   width: 100vw;
   z-index: 1;
