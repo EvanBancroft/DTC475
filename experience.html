@@ -156,7 +156,9 @@ let imgArray = [
 						
 						['image/breakin.jpg','Once her car was broken into and her birth certificate, social security card and other documents were stolen. And she had to ask friends and co-workers if she could take a shower at their homes before she found a youth drop-in center where she could bathe and wash her clothes.I thought it was embarrassing because I did not know the reaction I would get," she says. But finally, "I decided to put my pride aside because I saw how deep of a hole I was in. A resource center she visited directed Johnson to Jovenes. One of the organization donors is covering the rent for an apartment where Johnson now lives.'],
 					
-						['image/rent.jpg','“When I got into housing March 3, 2017, my life took a turn for the better," she says. "I found my drive again. I saw that I was resilient, that I was still a go-getter. I didn’t let homelessness stop me. ... I could have walked away from school. Now instead of walking away, she is moving forward. She graduates from Citrus in June and has gotten a full scholarship to attend Oral Roberts University in Tulsa, Oklahoma. “Housing is included," she says. "They’re taking care of my dorm."']
+						['image/rent.jpg','“When I got into housing March 3, 2017, my life took a turn for the better," she says. "I found my drive again. I saw that I was resilient, that I was still a go-getter. I didn’t let homelessness stop me. ... I could have walked away from school. Now instead of walking away, she is moving forward. She graduates from Citrus in June and has gotten a full scholarship to attend Oral Roberts University in Tulsa, Oklahoma. “Housing is included," she says. "They’re taking care of my dorm."'],
+						["image/white.png","The End"],
+						
 						];
 			
 		let u = 0;
@@ -168,8 +170,8 @@ let imgArray = [
 			u++;
            
 
-            if(u >= imgArray.length){ $("#storyExperience").fadeOut();
-            $("#starter").fadeIn(); u=0; }
+            if(u >= imgArray.length){ $("#storyExperience").fadeOut(2000);
+            $("#starter").delay(2000).fadeIn(1000); u=0; }
 		
         	$('#imagebox').html('<img id="imgs" src="'+imgUrl+'" />')
      		$('#discript').html("<p>"+imgDescrip+"</p>");
