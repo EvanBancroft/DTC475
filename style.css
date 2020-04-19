@@ -105,7 +105,7 @@ li a:hover, .activ {
   grid-template-columns: 75vw 1fr;
   grid-template-rows: 66vh 1fr;
   overflow: hidden;
-  margin-top: 40vh;
+  margin-top: 33vh;
 
 }
 .top_img {
