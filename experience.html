@@ -88,20 +88,16 @@
 
 		<button  class="collapse" id="starter" onclick="starter()"><h1>Story Experience</h1> </button>
 
-		<div id="storyExperience" style="display: none; width: 55vw;margin:auto;margin-bottom: 50px; object-fit: cover; max-height: 0;">
+		<div id="storyExperience" style="display: none; width: 55vw;margin:auto;margin-bottom: 50px; max-height: 0;">
 
-				<div id="imagebox">
-					<img src="image/college.jpg" style="width: 100%;object-fit: cover;">
+				<div id="imagebox" style="width: 70%;margin: auto;margin-top:20px; ">
 					
 				</div>
 
 				<div id="discript" style="margin: 20px;"></div>
-			
-
-		
-
-			 <button onclick="next()" style="border:1px solid purple;">Next</button>
-			
+			<div id="buttonPosition" style="text-align: center;">
+			 <button onclick="next()" style="border:1px solid purple;"><h2>Next</h2></button>
+			</div>
 		</div>
 
 	<!-- 	story experience ends here -->
@@ -145,7 +141,7 @@
 
 	function starter(){
 		$("#storyExperience").slideDown();
-		
+		next();
 		
 	}
 	
@@ -162,29 +158,19 @@ let imgArray = [
 						['image/rent.jpg','“When I got into housing March 3, 2017, my life took a turn for the better," she says. "I found my drive again. I saw that I was resilient, that I was still a go-getter. I didn’t let homelessness stop me. ... I could have walked away from school. Now instead of walking away, she is moving forward. She graduates from Citrus in June and has gotten a full scholarship to attend Oral Roberts University in Tulsa, Oklahoma. “Housing is included," she says. "They’re taking care of my dorm."']
 						];
 			
-
+		let u = 0;
 	function next(){
 
         	
-			let imgUrl = imgArray[i][0];
-			let imgDescrip = imgArray[i][1];	
-			i++;
-            if (i % imgArray.length === 0) { i=0; }
+			let imgUrl = imgArray[u][0];
+			let imgDescrip = imgArray[u][1];	
+			u++;
+            if (u % imgArray.length === 0) { i=0; }
 
-            if(i >= imgArray.length){ i=0; }
+            if(u >= imgArray.length){ u=0; }
 		
-        	$('#imagebox').children("img").fadeOut('1000', function(){
-      			$(this).html('<img id="imgs" src="'+imgUrl+'" />');
-     		 }).fadeIn('1000');
+        	$('#imagebox').html('<img id="imgs" src="'+imgUrl+'" />').fadeIn('1000');
      		$('#discript').html("<p>"+imgDescrip+"</p>");
-     		$("#imgs").css("width","100%");
-
-
-	
-
-
-			
-   	
      
      };  //this closes the document ready function
 
