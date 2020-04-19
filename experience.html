@@ -34,6 +34,10 @@
 		<p class="introduction" style="line-height: 2;width: 70%;">Students facing housing insecurity are presented with many hurdles to overcome in their pursuit of a degree. Social stigmas, mental health and financial stresses can all heavily affect a student’s ability to succeed in school, all of which can be hindered by struggling to meet basic needs. Below shared are firsthand accounts of housing insecure students pursuing higher education.</p>
 	</div>
 
+	<div class="video-container">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/ck-89phIXsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/5gEpbb7opVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 	<button class="collapse"><h1>DEALING WITH HOUSING INSECURITY</h1> </button>
 
@@ -84,10 +88,10 @@
 
 		<button  class="collapse" id="starter" onclick="starter()"><h1>Story Experience</h1> </button>
 
-		<div id="storyExperience" style="border: 1px solid red;display: none; width: 700px;margin:auto;margin-bottom: 50px;">
+		<div id="storyExperience" style="display: none; width: 55vw;margin:auto;margin-bottom: 50px; object-fit: cover; max-height: 0;">
 
 				<div id="imagebox">
-					<img src="image/college.jpg" style="width: 100%;height: 400px;">
+					<img src="image/college.jpg" style="width: 100%;object-fit: cover;">
 					
 				</div>
 
@@ -167,7 +171,7 @@ let imgArray = [
 			i++;
             if (i % imgArray.length === 0) { i=0; }
 
-           // if(i >= imgArray.length){ i=0; }
+            if(i >= imgArray.length){ i=0; }
 		
         	$('#imagebox').children("img").fadeOut('1000', function(){
       			$(this).html('<img id="imgs" src="'+imgUrl+'" />');

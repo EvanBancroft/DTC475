@@ -195,6 +195,25 @@ ol {
   border: 6px solid #60A699;
 
 }
+.video-container {
+position: relative;
+padding-top: 5vh;
+height: 0; 
+overflow: hidden;
+height: 25vw;
+width: 45vw;
+margin: auto;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+
+top: 0;
+left: 0;
+width: 45vw;
+height: 25vw;
+}
 .collapse:hover, .active {
   background-color: white ;
   border: 6px solid #60A699;
