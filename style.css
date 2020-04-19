@@ -159,6 +159,13 @@ li a:hover, .activ {
   font-size: 1.2em;
   font-weight: 400;
 }
+ol {
+  margin: auto;
+  width: 65vw;
+}
+.citationContent {
+  margin-top: 3vh;
+}
 .collapse {
   cursor: pointer;
   background-color: #60A699; 
