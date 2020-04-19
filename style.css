@@ -86,7 +86,8 @@ li a:hover, .activ {
   padding-top: 30vh;
   grid-area: 1 / 1 / 1 / 1;
   color: white;
-  margin-left: 27vw;
+  margin: auto;
+  padding-bottom: 20vh;
 
 }
 .littler_name {
@@ -112,6 +113,8 @@ li a:hover, .activ {
   grid-template-rows: 66vh 1fr;
   overflow: hidden;
   margin-top: 33vh;
+  margin-left: 12vw;
+  padding-top: 13vh;
 }
 .citationLink {
   color: #60A699;
@@ -122,8 +125,7 @@ li a:hover, .activ {
   grid-area: 1 / 1 / 1 / 1;
   width: 75vw;
   height: 66vh;
-  margin-left: 12vw;
-  padding-top: 13vh;
+  
 }
 .introduction_box{
   width: 100vw;
