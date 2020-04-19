@@ -108,6 +108,9 @@ li a:hover, .activ {
   margin-top: 33vh;
 
 }
+.citationLink {
+  color: #60A699;
+}
 .top_img {
   object-fit: cover;
   overflow: hidden;
