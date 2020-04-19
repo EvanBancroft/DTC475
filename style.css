@@ -22,6 +22,7 @@ body{
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
+
 }
 .middle_right{
   float: left;
@@ -45,6 +46,7 @@ body{
   top: 0;
   background-color: #146973;
   z-index: 100;
+  font-size: 0.9em;
 
 }
 .fixed {
@@ -296,19 +298,21 @@ h2 {
   margin: auto;
   background-color: #6C736C;
  
-  height: 45vh;
+
   color: white;
 }
 .borderbox {
   width: 100vw;
   margin: auto;
   background-color: #6C736C;
-  height: 45vh;
+
   color: white;
 }
 .profile {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+
 
 }
 .imageforpro {
@@ -317,6 +321,7 @@ h2 {
   height: 20vh;
   padding-right: 5vw;
   padding-top: 4vh;
+  padding-bottom: 5vh;
 }
 .imageforpropro {
   background-repeat: no-repeat;
@@ -326,16 +331,17 @@ h2 {
   height: 25vh;
   padding-left: 10vw;
   padding-top: 3vw;
+  padding-bottom: 5vh;
 
 }
 .textforpro {
   text-align: left;
-  height: 10vh;
-  margin: auto;
   font-size: 1.4em;
   padding-left: 7.5vw;
   padding-right: 6vw;
   margin-top: 8vh;
+  width: 55vw;
+  height: auto;
 }
 .alt_border {
   background-color: #E0D2C1;
