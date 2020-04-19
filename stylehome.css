@@ -131,6 +131,11 @@ p{
   z-index: 2;
   transition: 0.2s;
   object-fit: cover;
+  filter: blur(5px);
+  filter: grayscale(50%);
+  filter: sepia(60%);
+  filter: brightness(0.8);
+
 }
 .athing {
   grid-area: 1 / 1 / 1 / 1;
@@ -155,10 +160,10 @@ p{
 
 }
 .preview:hover .previewImage {
-  filter: blur(5px);
+  filter: blur(8px);
   filter: grayscale(50%);
   filter: sepia(60%);
-  filter: brightness(0.6);
+  filter: brightness(0.4);
 }
 .preview:hover .previewContent {
   opacity: 1;
