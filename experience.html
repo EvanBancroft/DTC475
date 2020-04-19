@@ -19,6 +19,7 @@
 	<div class="head_image">
 		<img class="top_img" src="stock.jpg" alt="Placeholder Image">
 		<h1 class="little_name">EXPERIENCE </h1>
+
 	</div>
 	
 
@@ -55,7 +56,21 @@
 		<p class="inside"></p>
 	</div>	
 
+	<!-- story experience starts here -->
 
+		<button class="collapse"><h1>Story Experience</h1> </button>
+
+		<div id="storyExperience" style="border: 1px solid red;">
+
+			<img src="" id="imagebox" style="border:1px solid black;"> <!-- won't change id, jquery applied -->
+
+			<p style="border:1px solid blue"></p>
+
+			 <button onclick="next()" style="border:1px solid purple;">Next</button>
+			
+		</div>
+
+	<!-- 	story experience ends here -->
 		<div >
 		<div class="footer">
 			<ul class="bot_fixed">
@@ -92,6 +107,46 @@
 			}
 		});
 	}
+
+	$(document).ready(function(){   //this opens the document ready function
+	
+	
+			let imgArray = [
+						["image/college.jpg", "Three years ago, Kyshawna Johnson, 23, had a lot more than homework on her mind as she pursued an associate's degree at Citrus College in Glendora, California. She also worried constantly about where to park overnight, since she was living in her car. That journey was a little traumatic for me, says Johnson, who lived in her 2014 Chrysler 200 from September 2016 until the following March. It affected my grades a lot. It affected my mental health. It affected my emotional stability. I was having different doubts about my future."], 
+						["image/car.jpg", '"That journey was a little traumatic for me," says Johnson, who lived in her 2014 Chrysler 200 from September 2016 until the following March. It affected my grades a lot. It affected my mental health. It affected my emotional stability. I was having different doubts about my future. She lived with her grandmother when she was a teenager, but when her grandmother no longer received funds from the foster care system for keeping her, Johnson was told she had to leave. She then briefly lived with an aunt and uncle but had to move out when their landlord said she could not stay. '],
+						
+						['image/parking.jpg',"Her $10-an-hour wages working three days a week weren't enough to cover rent, and so Johnson ended up living in her car. She initially parked near a Starbucks so she could tap into the Wi-Fi and do her homework. But inevitably the police would arrive to clear out the lot and chase her away. Being a young lady, I did not know where I could trust my car to be, she says, adding that strangers would sometimes knock on her window as she tried to find well-lit spots behind her school, near restaurants or in residential neighborhoods."],
+						
+						['image/breakin.jpg','Once her car was broken into and her birth certificate, social security card and other documents were stolen. And she had to ask friends and co-workers if she could take a shower at their homes before she found a youth drop-in center where she could bathe and wash her clothes.I thought it was embarrassing because I did not know the reaction I would get," she says. But finally, "I decided to put my pride aside because I saw how deep of a hole I was in. A resource center she visited directed Johnson to Jovenes. One of the organization donors is covering the rent for an apartment where Johnson now lives.'],
+					
+						['image/rent.jpg','“When I got into housing March 3, 2017, my life took a turn for the better," she says. "I found my drive again. I saw that I was resilient, that I was still a go-getter. I didn’t let homelessness stop me. ... I could have walked away from school. Now instead of walking away, she is moving forward. She graduates from Citrus in June and has gotten a full scholarship to attend Oral Roberts University in Tulsa, Oklahoma. “Housing is included," she says. "They’re taking care of my dorm."']
+						];
+		
+		let i = 0;
+
+		function next(){
+
+			let imgUrl = imgArray[i][0];
+			let imgDescrip = imgArray[i][1];	
+
+			i++;
+      
+            if (i % imgArray.length === 0) { i=0; }
+
+           // if(i >= imgArray.length){ i=0; }
+        
+        	$('#imagebox').fadeOut('1000', function(){
+      			$(this).html('<img src="'+imgUrl+'" />');
+     		 }).fadeIn('1000');
+     		 
+     		$('p').html(imgDescrip);
+   	
+     
+     };  //this closes the document ready function
+
+
+
+
 </script>
 </body>
 </html>
