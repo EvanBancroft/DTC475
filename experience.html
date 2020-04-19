@@ -169,10 +169,12 @@ let imgArray = [
 			u++;
             if (u % imgArray.length === 0) { i=0; }
 
-            if(u >= imgArray.length){ u=0; }
+            if(u >= imgArray.length){ $("#storyExperience").fadeOut();
+            $("#starter").fadeIn(); }
 		
         	$('#imagebox').html('<img id="imgs" src="'+imgUrl+'" />')
      		$('#discript').html("<p>"+imgDescrip+"</p>");
+
      
      };  //this closes the document ready function
 
