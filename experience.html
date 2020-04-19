@@ -144,7 +144,6 @@
 		$("#storyExperience").slideDown();
 		next();
 		$("#starter").fadeOut();
-		
 	}
 	
 
@@ -167,10 +166,10 @@ let imgArray = [
 			let imgUrl = imgArray[u][0];
 			let imgDescrip = imgArray[u][1];	
 			u++;
-            if (u % imgArray.length === 0) { i=0; }
+           
 
             if(u >= imgArray.length){ $("#storyExperience").fadeOut();
-            $("#starter").fadeIn(); }
+            $("#starter").fadeIn(); u=0; }
 		
         	$('#imagebox').html('<img id="imgs" src="'+imgUrl+'" />')
      		$('#discript').html("<p>"+imgDescrip+"</p>");
