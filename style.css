@@ -270,14 +270,17 @@ height: 25vw;
 .left_bot {
   float: left;
   width: 15vw;
-  padding-bottom: 2vh;
+  line-height: 2.5vh;
   height: 7vh;
+
 }
 .far_right{
   float: left;
   width: 15vw;
-  padding-bottom: 2vh;
+  line-height: 2.5vh;
   height: 7vh;
+
+
 }
 .collapse2 {
   background-color: #D96B43;
