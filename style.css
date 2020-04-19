@@ -99,6 +99,15 @@ li a:hover, .activ {
   padding-top: 40vh;
 
 }
+.littlerr_name {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3em;
+  margin-bottom: 5vh;
+ 
+
+}
+
 .head_image{
   width: 100vw;
   display: grid;
@@ -106,7 +115,6 @@ li a:hover, .activ {
   grid-template-rows: 66vh 1fr;
   overflow: hidden;
   margin-top: 33vh;
-
 }
 .citationLink {
   color: #60A699;
@@ -138,7 +146,7 @@ li a:hover, .activ {
   margin: auto;
   background-color: #E0D2C1;
   padding-top: 2.5%;
-  margin-top: 5%;
+
 }
 .introductions{
   width: 65vw;
