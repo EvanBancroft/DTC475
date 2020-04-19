@@ -10,38 +10,43 @@ body{
 }
 .left {
   float: left;
-  margin-left: 28%;
-  width: 10%;
+  margin-left: 26vw;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
 }
 .middle_left{
   float: left;
-
-  width: 10%;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
 }
 .middle_right{
   float: left;
-
-  width: 10%;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
 }
 .right{
   float: left;
-
-  width: 10%;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
+}
+.fixied {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  background-color: #146973;
+  z-index: 100;
 
 }
-
 .fixed {
   list-style-type: none;
   margin: 0;
@@ -51,13 +56,17 @@ body{
   font-weight: 900;
   height: 5.8vh;
   font-size: 1.25em;
-  position: fixed;
   width: 100vw;
-  z-index: 1;
   top: 0;
-
 }
-
+.headerImage {
+  width: 100vw;
+  object-fit: cover;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  height: 25vh;
+}
 li a {
   display: block;
   text-align: center;
@@ -77,23 +86,38 @@ li a:hover, .activ {
   padding-top: 30vh;
   grid-area: 1 / 1 / 1 / 1;
   color: white;
-  margin-left: 27vw;
+  margin: auto;
+  padding-bottom: 20vh;
 
 }
 .littler_name {
   text-align: center;
   font-weight: 900;
   font-size: 5em;
-  padding-top: 10vh;
+  padding-top: 40vh;
 
 }
+.littlerr_name {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3em;
+  margin-bottom: 5vh;
+ 
+
+}
+
 .head_image{
   width: 100vw;
   display: grid;
   grid-template-columns: 75vw 1fr;
   grid-template-rows: 66vh 1fr;
   overflow: hidden;
-
+  margin-top: 33vh;
+  margin-left: 12vw;
+  padding-top: 13vh;
+}
+.citationLink {
+  color: #60A699;
 }
 .top_img {
   object-fit: cover;
@@ -101,8 +125,7 @@ li a:hover, .activ {
   grid-area: 1 / 1 / 1 / 1;
   width: 75vw;
   height: 66vh;
-  margin-left: 12vw;
-  padding-top: 13vh;
+  
 }
 .introduction_box{
   width: 100vw;
@@ -122,7 +145,7 @@ li a:hover, .activ {
   margin: auto;
   background-color: #E0D2C1;
   padding-top: 2.5%;
-  margin-top: 5%;
+
 }
 .introductions{
   width: 65vw;
@@ -136,21 +159,28 @@ li a:hover, .activ {
 }
 .paragraph{
   transition: max-height 0.3s ease-out;
-  width: 45vw;
+  width: 55vw;
   margin: auto;
   text-align: left;
   max-height: 0;
   overflow: hidden;
   background-color: #6C736C;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 400;
+}
+ol {
+  margin: auto;
+  width: 65vw;
+}
+.citationContent {
+  margin-top: 3vh;
 }
 .collapse {
   cursor: pointer;
   background-color: #60A699; 
   text-align: left;
-  width: 45vw;
+  width: 55vw;
   border: none;
   outline: none;
   height: 95px;
@@ -171,12 +201,9 @@ li a:hover, .activ {
   text-align: left;
   margin-top: 5vh;
   height: 95px;
-  width: 45vw;
+  width: 55vw;
   cursor: pointer;
-
   text-align: left;
-  width: 45vw;
-
   outline: none;
   height: 95px;
   display:block;
@@ -202,7 +229,7 @@ li a:hover, .activ {
   color: white;
   text-align: center;
   text-decoration: none;
-  height: 5vh;
+  height: 5.8vh;
   margin-top: 15vh;
   line-height: 0.1vh;
 }
@@ -223,11 +250,13 @@ li a:hover, .activ {
   float: left;
   width: 15vw;
   padding-bottom: 2vh;
+  height: 5.8vh;
 }
 .far_right{
   float: left;
   width: 15vw;
   padding-bottom: 2vh;
+  height: 5.8vh;
 }
 .collapse2 {
   background-color: #D96B43;
@@ -248,7 +277,7 @@ li a:hover, .activ {
   padding: 0;
   overflow: hidden;
   font-weight: 900;
-  height: 5vh;
+  height: 5.8vh;
   font-size: 1.25em;
   width: 100vw;
   z-index: 1;
@@ -284,8 +313,8 @@ h2 {
 }
 .imageforpro {
   margin: 0;
-  width: 33%;
-  height: 66%;
+  width: 10vw;
+  height: 20vh;
   padding-right: 5vw;
   padding-top: 4vh;
 }
@@ -304,7 +333,7 @@ h2 {
   height: 10vh;
   margin: auto;
   font-size: 1.4em;
-  padding-left: 2vw;
+  padding-left: 7.5vw;
   padding-right: 6vw;
   margin-top: 8vh;
 }
@@ -312,11 +341,7 @@ h2 {
   background-color: #E0D2C1;
   color: black; 
 }
-.headerImage {
-  width: 100vw;
-  object-fit: cover;
-  padding-bottom: 10vh;
-}
+
 .linksy {
   color: white;
 }

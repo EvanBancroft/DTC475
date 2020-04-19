@@ -109,7 +109,7 @@ p{
   margin-left: 2.3vw;
   
   display: grid;
-  grid-template-columns: 30vw 1fr;
+  grid-template-columns: 27vw 1fr;
   grid-template-rows: 45vh 1fr;
   
 }
@@ -117,7 +117,7 @@ p{
   text-align: center;
   line-height: 45vh;
   color: white;
-  font-size: 4em;
+  font-size: 2.5vw;
   grid-area: 1 / 1 / 1 / 1;
   z-index: 3;
   transition: 0.2s;
@@ -140,17 +140,19 @@ p{
 
 .flexy {
   display: flex;
+  margin-top: 40vh;
 }
 .previewContent {
   text-align: center;
   opacity: 0;
-  font-size: 2em;
+  font-size: 1vw;
   color: white;
   grid-area: 1 / 1 / 1 / 1;
   z-index: 3;
   transition: 0.2s;
   margin: auto;
-  padding: 15vh 5vw;
+  padding: 15vh 7vw;
+
 }
 .preview:hover .previewImage {
   filter: blur(5px);
@@ -164,7 +166,6 @@ p{
 .preview:hover .previewTitle {
   opacity: 0;
 }
-
 
 
 
