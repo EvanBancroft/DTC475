@@ -138,10 +138,12 @@
 		});
 	}
 
-
+	
 	function starter(){
+
 		$("#storyExperience").slideDown();
 		next();
+		$("#starter").fadeOut();
 		
 	}
 	
@@ -169,7 +171,7 @@ let imgArray = [
 
             if(u >= imgArray.length){ u=0; }
 		
-        	$('#imagebox').html('<img id="imgs" src="'+imgUrl+'" />').fadeIn('1000');
+        	$('#imagebox').html('<img id="imgs" src="'+imgUrl+'" />')
      		$('#discript').html("<p>"+imgDescrip+"</p>");
      
      };  //this closes the document ready function
