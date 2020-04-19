@@ -10,32 +10,29 @@ body{
 }
 .left {
   float: left;
-  margin-left: 28%;
-  width: 10%;
+  margin-left: 26vw;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
 }
 .middle_left{
   float: left;
-
-  width: 10%;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
 }
 .middle_right{
   float: left;
-
-  width: 10%;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
 }
 .right{
   float: left;
-
-  width: 10%;
+  width: 10vw;
   text-align: center;
   padding-top: 1.2%;
   padding-bottom: 30px;
@@ -160,7 +157,7 @@ li a:hover, .activ {
 }
 .paragraph{
   transition: max-height 0.3s ease-out;
-  width: 45vw;
+  width: 55vw;
   margin: auto;
   text-align: left;
   max-height: 0;
@@ -181,7 +178,7 @@ ol {
   cursor: pointer;
   background-color: #60A699; 
   text-align: left;
-  width: 45vw;
+  width: 55vw;
   border: none;
   outline: none;
   height: 95px;
@@ -202,12 +199,9 @@ ol {
   text-align: left;
   margin-top: 5vh;
   height: 95px;
-  width: 45vw;
+  width: 55vw;
   cursor: pointer;
-
   text-align: left;
-  width: 45vw;
-
   outline: none;
   height: 95px;
   display:block;
