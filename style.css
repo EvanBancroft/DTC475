@@ -215,7 +215,7 @@ li a:hover, .activ {
   color: white;
   text-align: center;
   text-decoration: none;
-  height: 5vh;
+  height: 5.8vh;
   margin-top: 15vh;
   line-height: 0.1vh;
 }
@@ -236,11 +236,13 @@ li a:hover, .activ {
   float: left;
   width: 15vw;
   padding-bottom: 2vh;
+  height: 5.8vh;
 }
 .far_right{
   float: left;
   width: 15vw;
   padding-bottom: 2vh;
+  height: 5.8vh;
 }
 .collapse2 {
   background-color: #D96B43;
@@ -261,7 +263,7 @@ li a:hover, .activ {
   padding: 0;
   overflow: hidden;
   font-weight: 900;
-  height: 5vh;
+  height: 5.8vh;
   font-size: 1.25em;
   width: 100vw;
   z-index: 1;
